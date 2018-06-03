@@ -68,6 +68,7 @@ const SearchPage = (props) => {
         {
           fetchSuccess && <div className={styles.qrcode}>
             <QRCode value={address} />
+            <Typography align='center'>{address}</Typography>
             <Typography align='center'>钱包二维码</Typography>
           </div>
         }

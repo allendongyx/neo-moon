@@ -11,7 +11,6 @@ class index extends React.Component {
         primary: blue
       }
     })
-
     return (
       <MuiThemeProvider theme={theme}>
         <NeoFrame />

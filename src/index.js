@@ -9,6 +9,7 @@ const app = dva({
 })
 // 2. Model
 // Remove the comment and define your model.
+app.model(require('./models/app'))
 app.model(require('./models/search'))
 app.model(require('./models/transaction'))
 
