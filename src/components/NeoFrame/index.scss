@@ -1,0 +1,31 @@
+.root {
+    flex-grow: 1;
+}
+
+.grow {
+    flex: 1 1 auto;
+}
+
+.appFrame {
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.drawerPaper {
+    width: 240px;
+    position: relative !important;
+}
+
+.appBar {
+    width: calc(100% - 240px) !important; // margin-left: 240px,
+}
+
+.content {
+    padding: 100px 40px;
+    flex-grow: 1;
+    background-color: #fafafa;
+}
