@@ -7,7 +7,7 @@ export default {
     data: {},
     loading: false,
     fetchSuccess: false,
-    isOpenDetailModal: false,
+    isOpenDetailModal: false
   },
   subscriptions: {
     setup ({ dispatch, history }) {

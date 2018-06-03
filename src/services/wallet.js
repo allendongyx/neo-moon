@@ -21,7 +21,7 @@ export async function queryTransaction (address) {
   return requestOpenApi(
     `/mainnet/public/graphql`, {
       method: 'POST',
-      body: JSON.stringify({ "query": "{TransactionQuery (skip:0, limit:15 ,address: \"" + address + "\" ) {count,rows { _id txid blockIndex time size type vin { vout txid utxo { address value asset name } } vout { address value asset n name } nep5 { to from symbol value operation assetId } scripts { invocation verification } }}}" })
+      body: JSON.stringify({ 'query': '{TransactionQuery (skip:0, limit:15 ,address: "' + address + '" ) {count,rows { _id txid blockIndex time size type vin { vout txid utxo { address value asset name } } vout { address value asset n name } nep5 { to from symbol value operation assetId } scripts { invocation verification } }}}' })
     }
   )
 }
