@@ -13,3 +13,20 @@
 ## 服务器上部署了Neo-Cli
 
 地址为：[http://118.31.32.105:10332](http://118.31.32.105:10332)
+
+
+## Installation
+
+```sh
+// with npm
+npm install
+
+// with yarn
+yarn add
+```
+
+## Start Run
+
+```sh
+npm start
+```
