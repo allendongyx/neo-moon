@@ -4,7 +4,7 @@
 ## 预期完成的主要功能
 
 - [根据Address检索Gas及Neo余额](http://118.31.32.105/search/ALH6bdUegE9BKkq6dVC6m7TKeRTSRmuPW6) ✓
-- [查看Adresss下交易记录](http://118.31.32.105/search/ALH6bdUegE9BKkq6dVC6m7TKeRTSRmuPW6) ✓
+- [查看Address下交易记录](http://118.31.32.105/search/ALH6bdUegE9BKkq6dVC6m7TKeRTSRmuPW6) ✓
 - [创建钱包](http://118.31.32.105/new-wallet) 
 - 备份钱包文件
 - 转账功能
